@@ -4,7 +4,7 @@ Call IniExe()
 	Dim program_route, txt_usuario, txt_securepassword, start_time, stop_time, numIter
 	
 	numIter=Environment.Value("ActionIteration")
-	program_route = "C:\Program Files (x86)\Micro Focus\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe"
+	program_route = "C:\Program Files (x86)\Micro Focus\UFT One\samples\Flights Application\FlightsGUI.exe"
 	txt_usuario = DataTable("i_User", dtLocalSheet)
 	txt_securepassword = DataTable("i_PasswordSecure", dtLocalSheet)
 
